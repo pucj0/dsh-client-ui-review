@@ -1,6 +1,6 @@
 {
   "name": "dsh-client-ui-review",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Standalone turn review and project Git sidebar for the official dsh Web UI.",
   "type": "module",
   "main": "lib/index.js",

@@ -14,17 +14,17 @@
 
 已在 **@deepseek-ai/dsh 0.2.0-rc.1** 的官方 `web` profile 验证。需要 Node.js 22+、Git 和官方插件管理命令所使用的 pnpm；当前版本不提供 TUI 界面。
 
-在本目录执行 `npm pack` 得到 `dsh-client-ui-review-1.1.0.tgz`，也可以使用仓库根目录 `npm run pack:plugins` 生成的安装包。然后用安装包的绝对路径安装：
+在本目录执行 `npm pack` 得到 `dsh-client-ui-review-1.1.1.tgz`，也可以使用仓库根目录 `npm run pack:plugins` 生成的安装包。然后用安装包的绝对路径安装：
 
 ```bash
-dsh plugin --profile web add "/absolute/path/dsh-client-ui-review-1.1.0.tgz"
+dsh plugin --profile web add "/absolute/path/dsh-client-ui-review-1.1.1.tgz"
 dsh web
 ```
 
 Windows 示例：
 
 ```powershell
-dsh plugin --profile web add "E:\code\deepseek-harness-desktop\release\plugins\dsh-client-ui-review-1.1.0.tgz"
+dsh plugin --profile web add "E:\code\deepseek-harness-desktop\release\plugins\dsh-client-ui-review-1.1.1.tgz"
 dsh web
 ```
 
@@ -37,7 +37,7 @@ dsh plugin --profile web remove dsh-client-ui-review
 独立仓库：[dsh-client-ui-review](https://github.com/pucj0/dsh-client-ui-review)。从 [GitHub Releases](https://github.com/pucj0/dsh-client-ui-review/releases) 下载 tgz，或直接使用固定版本的 Release 地址安装：
 
 ```bash
-dsh plugin --profile web add https://github.com/pucj0/dsh-client-ui-review/releases/download/v1.1.0/dsh-client-ui-review-1.1.0.tgz
+dsh plugin --profile web add https://github.com/pucj0/dsh-client-ui-review/releases/download/v1.1.1/dsh-client-ui-review-1.1.1.tgz
 ```
 
 尚未发布到 npm registry。此目录本身可复制为独立仓库，保留 `lib/`、`package.json`、`cordis.patch.yml`、`README.md` 和 `LICENSE` 即可，不需要构建 Desktop。
